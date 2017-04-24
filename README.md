@@ -12,6 +12,10 @@ See the following issues in Mojarra JIRA:
 4. [JAVASERVERFACES-3978](https://java.net/jira/browse/JAVASERVERFACES-3978)
 5. [JAVASERVERFACES-3940](https://java.net/jira/browse/JAVASERVERFACES-3940)
 
+The problem has also been discussed at Stack Overflow:
+* [Duplicate component ID in JSF using composite component twice in view](http://stackoverflow.com/questions/33258296/duplicate-component-id-in-jsf-using-composite-component-twice-in-vie)
+* [Duplicate ID exception when using <c:if> with composite component](http://stackoverflow.com/questions/42863043/duplicate-id-exception-when-using-cif-with-composite-component)
+
 This reproducer triggers an exception with the following Mojarra releases:
 
 * 2.1.22
