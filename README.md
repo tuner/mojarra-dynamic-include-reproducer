@@ -6,9 +6,11 @@ certain circumstances:
 
 See the following issues in Mojarra JIRA:
 
-1. [JAVASERVERFACES-4072](https://java.net/jira/browse/JAVASERVERFACES-4072)
-2. [JAVASERVERFACES-3978](https://java.net/jira/browse/JAVASERVERFACES-3978)
-3. [JAVASERVERFACES-3940](https://java.net/jira/browse/JAVASERVERFACES-3940)
+1. [JAVASERVERFACES-4240](https://java.net/jira/browse/JAVASERVERFACES-4240)
+2. [JAVASERVERFACES-4204](https://java.net/jira/browse/JAVASERVERFACES-4204)
+3. [JAVASERVERFACES-4072](https://java.net/jira/browse/JAVASERVERFACES-4072)
+4. [JAVASERVERFACES-3978](https://java.net/jira/browse/JAVASERVERFACES-3978)
+5. [JAVASERVERFACES-3940](https://java.net/jira/browse/JAVASERVERFACES-3940)
 
 This reproducer triggers an exception with the following Mojarra releases:
 
