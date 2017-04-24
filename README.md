@@ -28,3 +28,5 @@ MyFaces (2.2.9) works without problems.
 I believe that the problem is related to the fix of issue
 [JAVASERVERFACES-2494](https://java.net/jira/browse/JAVASERVERFACES-2494).
 It was applied to both 2.1.22 and 2.2.1, and it introduced optimizations to handling of dynamic components.
+
+Some of my findings are reported in a mail that I sent to mojarra dev list: https://java.net/projects/javaserverfaces/lists/dev/archive/2016-04/message/0
