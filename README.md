@@ -1,5 +1,10 @@
 # Reproducer for JSF dynamic composite component inclusion problem
 
+N.B. This problem has finally been fixed! See:
+
+* [Mojarra 2.2](https://github.com/javaserverfaces/mojarra/commit/14e87ea57319012f02f0e3b09522d67c6d960378) - Included in 2.2.8-22
+* [Mojarra 2.3](https://github.com/javaserverfaces/mojarra/commit/5cddde673f2257f3700b1ede6d44afaaa42e8fab) - Included in 2.3.1
+
 Dynamic inclusion of composite components by using either c:if or ui:include cause the following exception in
 certain circumstances:
 `javax.servlet.ServletException: Component ID *xxxxxx* has already been found in the view.`
