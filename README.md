@@ -4,13 +4,13 @@ Dynamic inclusion of composite components by using either c:if or ui:include cau
 certain circumstances:
 `javax.servlet.ServletException: Component ID *xxxxxx* has already been found in the view.`
 
-See the following issues in Mojarra JIRA:
+See the following issues in Mojarra GitHub issue tracking:
 
-1. [JAVASERVERFACES-4240](https://java.net/jira/browse/JAVASERVERFACES-4240)
-2. [JAVASERVERFACES-4204](https://java.net/jira/browse/JAVASERVERFACES-4204)
-3. [JAVASERVERFACES-4072](https://java.net/jira/browse/JAVASERVERFACES-4072)
-4. [JAVASERVERFACES-3978](https://java.net/jira/browse/JAVASERVERFACES-3978)
-5. [JAVASERVERFACES-3940](https://java.net/jira/browse/JAVASERVERFACES-3940)
+1. [Duplicate ID exception when using composite component with c:if](https://github.com/javaserverfaces/mojarra/issues/4244)
+1. [Error Component already found when using c:if in composite components](https://github.com/javaserverfaces/mojarra/issues/4076)
+1. [Using c:if: Component ID * has already been found in the view](https://github.com/javaserverfaces/mojarra/issues/3982)
+1. [Dynamic `<ui:include>` duplicates a composite component](https://github.com/javaserverfaces/mojarra/issues/3944)
+1. [Dynamic Composite Component in ui:include lead to duplicate id Exception](https://github.com/javaserverfaces/mojarra/issues/4208)
 
 The problem has also been discussed at Stack Overflow:
 * [Duplicate component ID in JSF using composite component twice in view](http://stackoverflow.com/questions/33258296/duplicate-component-id-in-jsf-using-composite-component-twice-in-vie)
